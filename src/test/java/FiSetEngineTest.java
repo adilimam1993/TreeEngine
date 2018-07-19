@@ -1,4 +1,5 @@
 import org.junit.After;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -18,7 +19,7 @@ public class FiSetEngineTest {
 
     String[] paths = {"root_accounts.root_transactions", "root_accounts.desc", "root_accounts.name", "root_accounts.phone", "root_accounts.phone",
             "root_accounts.root_transactions.trnamount", "root_accounts.root_transactions.trnamount", "root_accounts.name",
-            "root_accounts.root_transactions.trntype", "root_accounts.desc"};
+            "root_accounts.root_transactions.trntype", "root_accounts.desc", "root_accounts.name", "root_accounts.name", "root_accounts.desc"};
 
     @Before
     public void setUp() throws Exception
@@ -67,6 +68,18 @@ public class FiSetEngineTest {
         value10.put("root_accounts", "666");
         value10.put("desc", "MacBook Pro");
 
+        Map<String, String> value11 = new HashMap<>();
+        value11.put("root_accounts", "666");
+        value11.put("name", "David Bornstein");
+
+        Map<String, String> value12 = new HashMap<>();
+        value12.put("root_accounts", "999");
+        value12.put("name", "Paul Allen");
+
+        Map<String, String> value13 = new HashMap<>();
+        value13.put("root_accounts", "999");
+        value13.put("desc", "CC");
+
         listMap.add(value1);
         listMap.add(value2);
         listMap.add(value3);
@@ -77,6 +90,9 @@ public class FiSetEngineTest {
         listMap.add(value8);
         listMap.add(value9);
         listMap.add(value10);
+        listMap.add(value11);
+        listMap.add(value12);
+        listMap.add(value13);
 
     }
 
@@ -102,6 +118,10 @@ public class FiSetEngineTest {
             current = root; // reset current to root
             index++;
         }
+
+        int countNodes = fiSetEngine.findTotalNodesByDepthFirstSearch(current);
+
+        Assert.assertEquals(23, countNodes);
     }
 
     @Test

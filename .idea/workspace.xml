@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b711185-f806-4a10-bbb2-27f25dc1b618" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FiSetEngine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FiSetDataTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FiSetDataTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FiSetMetaData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FiSetMetaData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FiSetNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FiSetNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FiSetNodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FiSetEngineTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FiSetEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FiSetEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FiSetEngineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FiSetEngineTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FiSetEngine.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FiSetEngine.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/FiSetEngine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+            <state relative-caret-position="44">
+              <caret line="145" column="8" selection-start-line="145" selection-start-column="8" selection-end-line="145" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#4653#4654#0" expanded="true" />
@@ -105,11 +99,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FiSetEngineTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FiSetEngineTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/FiSetEngineTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="98" column="41" selection-start-line="98" selection-start-column="41" selection-end-line="98" selection-end-column="41" />
+            <state relative-caret-position="169">
+              <caret line="125" lean-forward="true" selection-start-line="125" selection-end-line="125" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -125,8 +119,8 @@
       <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="85">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -155,8 +149,8 @@
         <option value="$PROJECT_DIR$/src/test/java/FiSetNodeTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/FiSetNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/Client.java" />
-        <option value="$PROJECT_DIR$/src/test/java/FiSetEngineTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/FiSetEngine.java" />
+        <option value="$PROJECT_DIR$/src/test/java/FiSetEngineTest.java" />
       </list>
     </option>
   </component>
@@ -361,9 +355,30 @@
     <history-entry file="FiSetEngineTest_addChildTest - 2018.07.19 at 00h 04m 33s.xml">
       <configuration name="FiSetEngineTest.addChildTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FiSetEngineTest_addChildTest - 2018.07.19 at 00h 17m 47s.xml">
+      <configuration name="FiSetEngineTest.addChildTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FiSetEngineTest_addChildTest - 2018.07.19 at 00h 44m 34s.xml">
+      <configuration name="FiSetEngineTest.addChildTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FiSetEngineTest_addChildTest - 2018.07.19 at 00h 53m 13s.xml">
+      <configuration name="FiSetEngineTest.addChildTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FiSetEngineTest_addChildTest - 2018.07.19 at 00h 55m 59s.xml">
+      <configuration name="FiSetEngineTest.addChildTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FiSetEngineTest_addChildTest - 2018.07.19 at 00h 57m 00s.xml">
+      <configuration name="FiSetEngineTest.addChildTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FiSetEngineTest_addChildTest - 2018.07.19 at 00h 58m 13s.xml">
+      <configuration name="FiSetEngineTest.addChildTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FiSetEngineTest_addChildTest - 2018.07.19 at 00h 58m 17s.xml">
+      <configuration name="FiSetEngineTest.addChildTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5171000" />
+    <option name="totallyTimeSpent" value="7419000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="150" y="23" width="1267" height="824" extended-state="0" />
@@ -378,19 +393,19 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32998565" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3287483" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.27977043" />
+      <window_info anchor="bottom" id="Terminal" weight="0.2792297" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24979591" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19755103" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32998565" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
       <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.17744154" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.44841817" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info id="Designer" order="2" />
@@ -428,7 +443,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="6" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -506,13 +521,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/FiSetDataTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/FiSetMetaDataReaderHc.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -564,32 +572,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FiSetDataTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FiSetEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="145" column="8" selection-start-line="145" selection-start-column="8" selection-end-line="145" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4653#4654#0" expanded="true" />
+            <element signature="e#4705#4706#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/FiSetEngineTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="98" column="41" selection-start-line="98" selection-start-column="41" selection-end-line="98" selection-end-column="41" />
+        <state relative-caret-position="169">
+          <caret line="125" lean-forward="true" selection-start-line="125" selection-end-line="125" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/FiSetEngine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4653#4654#0" expanded="true" />
-            <element signature="e#4705#4706#0" expanded="true" />
           </folding>
         </state>
       </provider>

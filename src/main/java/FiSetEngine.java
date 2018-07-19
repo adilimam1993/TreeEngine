@@ -1,5 +1,6 @@
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Stack;
 
 class FiSetEngine {
 
@@ -142,4 +143,33 @@ class FiSetEngine {
         return fiSetNode.getChildren().size() > 0;
     }
 
+    int findTotalNodesByDepthFirstSearch(FiSetNode fiSetNode)
+    {
+        int count = 0;
+
+        if(fiSetNode == null)
+        {
+            return 0;
+        }
+        else
+        {
+            FiSetNode current = fiSetNode;
+            Stack<FiSetNode> stackNodes = new Stack<>();
+
+            stackNodes.push(current);
+
+            while (!stackNodes.empty())
+            {
+                FiSetNode node = stackNodes.pop();
+                count++;
+
+                for( FiSetNode currentNode : node.getChildren())
+                {
+                    stackNodes.push(currentNode);
+                }
+            }
+
+        }
+        return count;
+    }
 }
