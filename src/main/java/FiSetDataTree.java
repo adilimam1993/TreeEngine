@@ -3,14 +3,14 @@
  */
 public class FiSetDataTree
 {
-    private FiSetNode root;   //Root FiSetNode
+    private FiSetEngine root;   //Root FiSetEngine
 
-    public FiSetNode getRoot()
+    public FiSetEngine getRoot()
     {
         return root;
     }
 
-    public void setRoot(FiSetNode root)
+    public void setRoot(FiSetEngine root)
     {
         this.root = root;
     }

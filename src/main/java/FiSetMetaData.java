@@ -25,7 +25,7 @@ public class FiSetMetaData
     }
 
 
-    public void addTree(String key, FiSetNode fiSetNode)
+    public void addTree(String key, FiSetEngine fiSetNode)
     {
         FiSetDataTree fiSetDataTree = new FiSetDataTree();
         fiSetDataTree.setRoot(fiSetNode);
